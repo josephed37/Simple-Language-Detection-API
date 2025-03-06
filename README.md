@@ -1,4 +1,4 @@
-# Simple Language Detection App
+# Simple Language Detection API
 
 ## Overview
 This is a simple **language detection API** built using **FastAPI** and **Scikit-Learn**. The model predicts the language of a given text string. The API is containerized using **Docker** to ensure easy deployment and scalability.
