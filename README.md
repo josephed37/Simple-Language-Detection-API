@@ -2,7 +2,7 @@
 
 ## Overview
 This is a simple **language detection API** built using **FastAPI** and **Scikit-Learn**. The model predicts the language of a given text string. The API is containerized using **Docker** to ensure easy deployment and scalability.
-this is inspired by [https://github.com/basil-b2s/Language-Detector](https://github.com/basil-b2s/Language-Detector)
+This is inspired by [https://github.com/basil-b2s/Language-Detector](https://github.com/basil-b2s/Language-Detector)
 
 ## Features
 - Predicts the language of a given text input.
@@ -31,17 +31,6 @@ python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
-```sh
-pip install -r requirements.txt
-```
-
-### 4. Run the FastAPI App Locally
-```sh
-uvicorn app.main:app --host 0.0.0.0 --port 8000
-```
-
-The API should now be accessible at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## Docker Setup
 ### 1. Build the Docker Image
