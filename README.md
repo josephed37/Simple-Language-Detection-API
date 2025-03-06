@@ -92,7 +92,4 @@ If you'd like to contribute to this project, feel free to fork the repo, create 
 ## License
 This project is licensed under the **MIT License**.
 
----
-
-Now you're all set to use the **Simple Language Detection App** with FastAPI and Docker! 🚀
 
